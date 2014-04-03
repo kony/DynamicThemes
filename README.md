@@ -13,3 +13,4 @@ This Application will showcase Locally Packaged Themes
  * Android
  * Windows 7.5
  * SPA iPhone
+ * SPA Android

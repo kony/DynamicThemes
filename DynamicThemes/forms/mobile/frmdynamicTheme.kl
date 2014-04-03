@@ -22,7 +22,7 @@
         <width>true</width>
         <height>false</height>
     </overridePerferred>
-    <projectName>SampleDynamicThemes</projectName>
+    <projectName>DynamicThemes</projectName>
     <formName>frmdynamicTheme</formName>
     <platform>0</platform>
     <mode>0</mode>
@@ -770,7 +770,7 @@
         <desktopweb_draggable>false</desktopweb_draggable>
         <desktopweb_minonlostfocus>false</desktopweb_minonlostfocus>
         <children xsi:type="kSegment2">
-            <ID>segment2120664956617990</ID>
+            <ID>segContent</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -2810,7 +2810,7 @@
                 <projectState>0</projectState>
             </children>
             <children xsi:type="khBox">
-                <ID>hbox120664956617994</ID>
+                <ID>hbx1</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -4768,7 +4768,7 @@
                 <projectState>0</projectState>
             </children>
             <children xsi:type="khBox">
-                <ID>hbox120664956617995</ID>
+                <ID>hbx2</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -6729,7 +6729,7 @@
             <projectState>0</projectState>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox120664956618024</ID>
+            <ID>hbxHeader</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -7078,7 +7078,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>true</android_override>
+                <android_override>false</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
@@ -7094,13 +7094,13 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>true</bb_override>
-                <default_override>false</default_override>
+                <bb_override>false</bb_override>
+                <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -7134,7 +7134,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -7231,7 +7231,7 @@
                     <unit>%</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>0</left>
                     <right>0</right>
@@ -7247,7 +7247,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvBB>
-                <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
+                <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
                 <spaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -7255,7 +7255,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
-                <spaAndroid_override>true</spaAndroid_override>
+                <spaAndroid_override>false</spaAndroid_override>
                 <spaBB>
                     <left>0</left>
                     <right>0</right>
@@ -7270,8 +7270,8 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBBNth>
-                <spaBBNth_override>true</spaBBNth_override>
-                <spaBB_override>true</spaBB_override>
+                <spaBBNth_override>false</spaBBNth_override>
+                <spaBB_override>false</spaBB_override>
                 <spaIphone>
                     <left>0</left>
                     <right>0</right>
@@ -7279,7 +7279,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>true</spaIphone_override>
+                <spaIphone_override>false</spaIphone_override>
                 <spaWindows>
                     <left>0</left>
                     <right>0</right>
@@ -7287,7 +7287,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaWindows>
-                <spaWindows_override>true</spaWindows_override>
+                <spaWindows_override>false</spaWindows_override>
                 <xhtmlAdvAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -7295,7 +7295,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvAndroid>
-                <xhtmlAdvAndroid_override>true</xhtmlAdvAndroid_override>
+                <xhtmlAdvAndroid_override>false</xhtmlAdvAndroid_override>
                 <xhtmlAdvIphone>
                     <left>0</left>
                     <right>0</right>
@@ -7303,7 +7303,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvIphone>
-                <xhtmlAdvIphone_override>true</xhtmlAdvIphone_override>
+                <xhtmlAdvIphone_override>false</xhtmlAdvIphone_override>
                 <xhtmlAdvNth>
                     <left>0</left>
                     <right>0</right>
@@ -7397,7 +7397,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kLabel">
-                <ID>label1178943813218402</ID>
+                <ID>lblHeader</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -8045,7 +8045,7 @@
                 <projectState>0</projectState>
             </children>
             <children xsi:type="kImage2">
-                <ID>image21178973604210981</ID>
+                <ID>imgHeader</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -8661,7 +8661,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>back_ico_f.png</SText>
+                <SText>back_ico.png</SText>
                 <overridePerferred>
                     <width>false</width>
                     <height>false</height>
@@ -8756,7 +8756,7 @@
             <projectState>0</projectState>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox120664956618675</ID>
+            <ID>hbxBtn</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -9407,7 +9407,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kButton">
-                <ID>button120664956618029</ID>
+                <ID>btnNewKonyTheme</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -10124,7 +10124,7 @@
                 <projectState>0</projectState>
             </children>
             <children xsi:type="kButton">
-                <ID>button120664956618030</ID>
+                <ID>btnOldKonyThene</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -10841,7 +10841,7 @@
                 <projectState>0</projectState>
             </children>
             <children xsi:type="kvBox">
-                <ID>vbox1178973604210980</ID>
+                <ID>vbx1</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -11497,7 +11497,7 @@
             <projectState>0</projectState>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox1178943813210978</ID>
+            <ID>hbxHeadW8</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -12148,7 +12148,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kLabel">
-                <ID>label1178943813210979</ID>
+                <ID>lblHeadW8</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>

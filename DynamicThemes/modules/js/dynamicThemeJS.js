@@ -20,7 +20,26 @@
 					{lbl1:"Shaker 5 Piece Dining Set, Espresso ",lbl2:"Home",lbl31:"Price:",lbl32:"35",lbl41:"Rate:",lbl42:"5.7"},
 					{lbl1:"Zella 3 Piece Pub Set, Espresso ",lbl2:"Home",lbl31:"Price:",lbl32:"28",lbl41:"Rate:",lbl42:"2.3"}				
 		);
-		frmdynamicTheme.segment2120664956617990.setData(segData);
+		frmdynamicTheme.segContent.setData(segData);
+		
+		var crntTheme=kony.theme.getCurrentTheme();
+		
+        if((crntTheme=="OldKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")))
+        {
+        frmdynamicTheme.imgHeader.src="back_ico_f.png";
+        }
+        if((crntTheme=="NewKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")))
+        {
+        frmdynamicTheme.imgHeader.src="back_ico.png";
+        }
+        
+        if(crntTheme=="OldKonyTheme")
+        {
+        frmIntro.img1.src="bullet.png";
+        }
+        if(crntTheme=="NewKonyTheme")
+        frmIntro.img1.src="blackbullet.png";
+        
 		frmdynamicTheme.show();
 		
 	}
@@ -44,6 +63,12 @@
 ******************************************************************/
  
 	 function newKonyThemefn(){
+	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator"))
+	 	{
+	 	frmdynamicTheme.imgHeader.src="back_ico.png";
+	 	}
+	 	
+        frmIntro.img1.src="blackbullet.png";
 	 	
 	 	kony.theme.setCurrentTheme("NewKonyTheme", onsuccesscallback, onerrorcallback);
 	 	frmdynamicTheme.show();
@@ -57,6 +82,11 @@
 ******************************************************************/ 
 	 
 	  function oldkonyThemefn(){
+	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator"))
+	    {
+	    frmdynamicTheme.imgHeader.src="back_ico_f.png";
+	    }
+	    frmIntro.img1.src="bullet.png";
 	  	//kony.print("Before calling setcurrenttheme");
 	 	kony.theme.setCurrentTheme("OldKonyTheme", onsuccesscallback, onerrorcallback);
 	 	//kony.print("After calling setcurrenttheme");
