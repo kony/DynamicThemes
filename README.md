@@ -15,3 +15,4 @@ This Application will showcase Locally Packaged Themes
  * Windows 8
  * SPA iPhone
  * SPA Android
+ * SPA Blackberry
