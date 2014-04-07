@@ -11,6 +11,7 @@ This Application will showcase Locally Packaged Themes
 **Mobile**
  * iPhone
  * Android
+ * Blackberry
  * Windows 7.5
  * Windows 8
  * SPA iPhone

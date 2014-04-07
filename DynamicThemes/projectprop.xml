@@ -90,12 +90,13 @@
     <attributes name="GET_TASKS" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="tciphonebasefontsize" value="12"/>
+    <attributes name="tabletstartupformkey" value="frmIntro"/>
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="splashlogokey" value="0=iphone_5.png,1=iphone_5.png,8=splash.9.png,2=bb_bold.png,46=bb9930.png,42=lumia925.png,3=lumia925.png,16=,18=,43=,1000=iphone_5.png,1001=,1002=,31=,32=,45=,22=,23=,24=,35=,44=,36=,21=,37="/>
-    <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
+    <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
     <attributes name="imagewhendownloading" value=""/>
     <attributes name="WP8_ID_CAP_IDENTITY_DEVICE" value="true"/>
@@ -352,6 +353,7 @@
     <attributes name="iphonewebshrtcutkey" value=""/>
     <attributes name="ID_CAP_NETWORKING" value="true"/>
     <attributes name="ID_HW_FRONTCAMERA" value="false"/>
+    <attributes name="desktopstartupformkey" value="frmIntro"/>
     <attributes name="wp8lockscreenbackgroundkey" value="false"/>
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
     <attributes name="ID_REQ_NFC" value="false"/>
@@ -382,8 +384,8 @@
     <attributes name="spawindows480basefontsize" value="12"/>
     <attributes name="wp8cycle9key" value=""/>
     <attributes name="MOUNT_UNMOUNT_FILESYSTEMS" value="false"/>
-    <attributes name="BROADCAST_WAP_PUSH" value="false"/>
     <attributes name="tcandroid480basefontsize" value="14"/>
+    <attributes name="BROADCAST_WAP_PUSH" value="false"/>
     <attributes name="BROADCAST_SMS" value="false"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
     <attributes name="ID_REQ_REARCAMERA" value="false"/>

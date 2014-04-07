@@ -9482,7 +9482,7 @@
                 </rendererData>
                 <margins>
                     <android>
-                        <left>5</left>
+                        <left>4</left>
                         <right>1</right>
                         <top>0</top>
                         <bottom>0</bottom>
@@ -9751,11 +9751,11 @@
                     <android>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </android>
-                    <android_override>false</android_override>
+                    <android_override>true</android_override>
                     <bb>
                         <left>0</left>
                         <right>0</right>
@@ -10200,7 +10200,7 @@
                 <margins>
                     <android>
                         <left>1</left>
-                        <right>5</right>
+                        <right>4</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
@@ -10468,11 +10468,11 @@
                     <android>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </android>
-                    <android_override>false</android_override>
+                    <android_override>true</android_override>
                     <bb>
                         <left>0</left>
                         <right>0</right>
