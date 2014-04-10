@@ -17,3 +17,6 @@ This Application will showcase the Locally Packaged Themes
  * SPA iPhone
  * SPA Android
  * SPA Blackberry
+
+**Tablet**
+ * iPad

@@ -24,11 +24,11 @@
 		
 		var crntTheme=kony.theme.getCurrentTheme();
 		
-        if((crntTheme=="OldKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")))
+        if((crntTheme=="OldKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")||(kony.os.deviceInfo().name=="iPad")||(kony.os.deviceInfo().name=="iPad Simulator")))
         {
         frmdynamicTheme.imgHeader.src="back_ico_f.png";
         }
-        if((crntTheme=="NewKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")))
+        if((crntTheme=="NewKonyTheme")&&((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")||(kony.os.deviceInfo().name=="iPad")||(kony.os.deviceInfo().name=="iPad Simulator")))
         {
         frmdynamicTheme.imgHeader.src="back_ico.png";
         }
@@ -63,7 +63,7 @@
 ******************************************************************/
  
 	 function newKonyThemefn(){
-	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator"))
+	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")||(kony.os.deviceInfo().name=="iPad")||(kony.os.deviceInfo().name=="iPad Simulator"))
 	 	{
 	 	frmdynamicTheme.imgHeader.src="back_ico.png";
 	 	}
@@ -82,7 +82,7 @@
 ******************************************************************/ 
 	 
 	  function oldkonyThemefn(){
-	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator"))
+	    if((kony.os.deviceInfo().name=="iPhone")||(kony.os.deviceInfo().name=="iPhone Simulator")||(kony.os.deviceInfo().name=="iPad")||(kony.os.deviceInfo().name=="iPad Simulator"))
 	    {
 	    frmdynamicTheme.imgHeader.src="back_ico_f.png";
 	    }
@@ -134,4 +134,18 @@
 ******************************************************************/
 	 function onerrorcallback(){
 		 kony.print("Theme change failure");
+	 }
+	 
+	 
+	 
+	 
+	 
+	 function OnRowClickTablet(){
+	 
+	 if(frmdynamicTheme.segMenu.selectedIndex[1] == 0){
+		newKonyThemefn();
+	}
+	else if(frmdynamicTheme.segMenu.selectedIndex[1] == 1){ 
+	    oldkonyThemefn();	 
+	 }
 	 }
