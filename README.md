@@ -20,3 +20,4 @@ This Application will showcase the Locally Packaged Themes
 
 **Tablet**
  * iPad
+ * Android

@@ -2,6 +2,8 @@
 <application name="DynamicThemes" id="DynamicThemes">
     <container type="form" id="frmIntro" displayname="Form"/>
     <container type="form" id="frmdynamicTheme" displayname="Form"/>
+    <container type="form" id="frmdynamicTheme" displayname="Form"/>
+    <container type="form" id="frmdynamicTheme" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>

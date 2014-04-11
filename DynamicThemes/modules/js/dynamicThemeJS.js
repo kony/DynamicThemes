@@ -140,7 +140,7 @@
 	 
 	 
 	 
-	 function OnRowClickTablet(){
+	 function OnRowClick(){
 	 
 	 if(frmdynamicTheme.segMenu.selectedIndex[1] == 0){
 		newKonyThemefn();
@@ -149,3 +149,4 @@
 	    oldkonyThemefn();	 
 	 }
 	 }
+	 
