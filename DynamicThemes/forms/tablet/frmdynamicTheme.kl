@@ -647,9 +647,9 @@
         <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>sknBtnKonyThemeNormal</backButtonSkin>
-            <showBackButton>false</showBackButton>
+            <showBackButton>true</showBackButton>
             <skinID>sknTitleKonyTheme</skinID>
-            <visible>false</visible>
+            <visible>true</visible>
         </win8TitleBarData>
         <android_orientation>2</android_orientation>
         <android_transition_effect>0</android_transition_effect>
@@ -3617,14 +3617,14 @@
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
@@ -3643,9 +3643,9 @@
                     </tabRCAndroid>
                     <tablet_rc_android_override>false</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
@@ -3666,13 +3666,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -3884,14 +3884,14 @@
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
@@ -3910,10 +3910,10 @@
                     </tabRCAndroid>
                     <tablet_rc_android_override>false</tablet_rc_android_override>
                     <tabspaAndroid>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -5497,7 +5497,7 @@
                                 </bb10>
                                 <bb10_override>false</bb10_override>
                                 <bb_override>true</bb_override>
-                                <default_override>false</default_override>
+                                <default_override>true</default_override>
                                 <defaults>
                                     <left>0</left>
                                     <right>0</right>
@@ -6568,14 +6568,14 @@
                                     </spaWinphone8>
                                     <spaWinphone8_override>false</spaWinphone8_override>
                                     <spaipad>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
                                         <top>0</top>
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </spaipad>
-                                    <spaipad_override>false</spaipad_override>
-                                    <spatablet_android_override>false</spatablet_android_override>
+                                    <spaipad_override>true</spaipad_override>
+                                    <spatablet_android_override>true</spatablet_android_override>
                                     <spatablet_windows_override>false</spatablet_windows_override>
                                     <symbian>
                                         <left>2</left>
@@ -6594,7 +6594,7 @@
                                     </tabRCAndroid>
                                     <tablet_rc_android_override>false</tablet_rc_android_override>
                                     <tabspaAndroid>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
                                         <top>0</top>
                                         <bottom>0</bottom>
@@ -6617,13 +6617,13 @@
                                     <thinclient_override>false</thinclient_override>
                                     <type>1</type>
                                     <windows8>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
+                                        <top>1</top>
+                                        <bottom>1</bottom>
                                         <unit>%</unit>
                                     </windows8>
-                                    <windows8_override>false</windows8_override>
+                                    <windows8_override>true</windows8_override>
                                     <winmobile>
                                         <left>2</left>
                                         <right>2</right>
@@ -7216,14 +7216,14 @@
                                     </spaWinphone8>
                                     <spaWinphone8_override>false</spaWinphone8_override>
                                     <spaipad>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
                                         <top>0</top>
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </spaipad>
-                                    <spaipad_override>false</spaipad_override>
-                                    <spatablet_android_override>false</spatablet_android_override>
+                                    <spaipad_override>true</spaipad_override>
+                                    <spatablet_android_override>true</spatablet_android_override>
                                     <spatablet_windows_override>false</spatablet_windows_override>
                                     <symbian>
                                         <left>2</left>
@@ -7242,7 +7242,7 @@
                                     </tabRCAndroid>
                                     <tablet_rc_android_override>false</tablet_rc_android_override>
                                     <tabspaAndroid>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
                                         <top>0</top>
                                         <bottom>0</bottom>
@@ -7265,13 +7265,13 @@
                                     <thinclient_override>false</thinclient_override>
                                     <type>1</type>
                                     <windows8>
-                                        <left>0</left>
+                                        <left>1</left>
                                         <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
+                                        <top>1</top>
+                                        <bottom>1</bottom>
                                         <unit>%</unit>
                                     </windows8>
-                                    <windows8_override>false</windows8_override>
+                                    <windows8_override>true</windows8_override>
                                     <winmobile>
                                         <left>2</left>
                                         <right>2</right>
@@ -7648,12 +7648,12 @@
                                     <type>1</type>
                                     <windows8>
                                         <left>0</left>
-                                        <right>0</right>
+                                        <right>40</right>
                                         <top>0</top>
                                         <bottom>0</bottom>
-                                        <unit>px</unit>
+                                        <unit>%</unit>
                                     </windows8>
-                                    <windows8_override>false</windows8_override>
+                                    <windows8_override>true</windows8_override>
                                     <winmobile>
                                         <left>0</left>
                                         <right>0</right>
@@ -7916,11 +7916,11 @@
                                     <windows8>
                                         <left>0</left>
                                         <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
+                                        <top>1</top>
+                                        <bottom>1</bottom>
                                         <unit>%</unit>
                                     </windows8>
-                                    <windows8_override>false</windows8_override>
+                                    <windows8_override>true</windows8_override>
                                     <winmobile>
                                         <left>0</left>
                                         <right>0</right>
@@ -8303,13 +8303,13 @@
                                         <thinclient_override>false</thinclient_override>
                                         <type>1</type>
                                         <windows8>
-                                            <left>0</left>
+                                            <left>1</left>
                                             <right>0</right>
                                             <top>0</top>
                                             <bottom>0</bottom>
-                                            <unit>px</unit>
+                                            <unit>%</unit>
                                         </windows8>
-                                        <windows8_override>false</windows8_override>
+                                        <windows8_override>true</windows8_override>
                                         <winmobile>
                                             <left>0</left>
                                             <right>0</right>
@@ -9151,14 +9151,14 @@
                                             </spaWinphone8>
                                             <spaWinphone8_override>false</spaWinphone8_override>
                                             <spaipad>
-                                                <left>0</left>
+                                                <left>1</left>
                                                 <right>0</right>
                                                 <top>0</top>
                                                 <bottom>0</bottom>
                                                 <unit>%</unit>
                                             </spaipad>
-                                            <spaipad_override>false</spaipad_override>
-                                            <spatablet_android_override>false</spatablet_android_override>
+                                            <spaipad_override>true</spaipad_override>
+                                            <spatablet_android_override>true</spatablet_android_override>
                                             <spatablet_windows_override>false</spatablet_windows_override>
                                             <symbian>
                                                 <left>0</left>
@@ -9177,7 +9177,7 @@
                                             </tabRCAndroid>
                                             <tablet_rc_android_override>false</tablet_rc_android_override>
                                             <tabspaAndroid>
-                                                <left>0</left>
+                                                <left>1</left>
                                                 <right>0</right>
                                                 <top>0</top>
                                                 <bottom>0</bottom>
@@ -9850,13 +9850,13 @@
                                                 <thinclient_override>false</thinclient_override>
                                                 <type>1</type>
                                                 <windows8>
-                                                    <left>0</left>
+                                                    <left>1</left>
                                                     <right>0</right>
                                                     <top>0</top>
                                                     <bottom>0</bottom>
                                                     <unit>%</unit>
                                                 </windows8>
-                                                <windows8_override>false</windows8_override>
+                                                <windows8_override>true</windows8_override>
                                                 <winmobile>
                                                     <left>0</left>
                                                     <right>0</right>
@@ -10910,9 +10910,9 @@
                                             <right>0</right>
                                             <top>0</top>
                                             <bottom>0</bottom>
-                                            <unit>px</unit>
+                                            <unit>%</unit>
                                         </windows8>
-                                        <windows8_override>false</windows8_override>
+                                        <windows8_override>true</windows8_override>
                                         <winmobile>
                                             <left>0</left>
                                             <right>0</right>
@@ -13547,13 +13547,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -15445,12 +15445,12 @@
                                 <spaipad>
                                     <left>0</left>
                                     <right>0</right>
-                                    <top>0</top>
+                                    <top>1</top>
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </spaipad>
-                                <spaipad_override>false</spaipad_override>
-                                <spatablet_android_override>false</spatablet_android_override>
+                                <spaipad_override>true</spaipad_override>
+                                <spatablet_android_override>true</spatablet_android_override>
                                 <spatablet_windows_override>false</spatablet_windows_override>
                                 <symbian>
                                     <left>0</left>
@@ -15471,7 +15471,7 @@
                                 <tabspaAndroid>
                                     <left>0</left>
                                     <right>0</right>
-                                    <top>0</top>
+                                    <top>1</top>
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </tabspaAndroid>
@@ -16073,7 +16073,7 @@
                                     <width>100</width>
                                     <height>8</height>
                                 </sizePercent>
-                                <skinId>sknLblKonyThemeNormal</skinId>
+                                <skinId>lblgrey</skinId>
                                 <focusSkinId>Skin Defaults</focusSkinId>
                                 <localeId>None</localeId>
                                 <visible>true</visible>
@@ -16212,12 +16212,12 @@
                                     <spaipad>
                                         <left>0</left>
                                         <right>0</right>
-                                        <top>0</top>
+                                        <top>1</top>
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </spaipad>
-                                    <spaipad_override>false</spaipad_override>
-                                    <spatablet_android_override>false</spatablet_android_override>
+                                    <spaipad_override>true</spaipad_override>
+                                    <spatablet_android_override>true</spatablet_android_override>
                                     <spatablet_windows_override>false</spatablet_windows_override>
                                     <symbian>
                                         <left>1</left>
@@ -16238,7 +16238,7 @@
                                     <tabspaAndroid>
                                         <left>0</left>
                                         <right>0</right>
-                                        <top>0</top>
+                                        <top>1</top>
                                         <bottom>0</bottom>
                                         <unit>%</unit>
                                     </tabspaAndroid>
@@ -16263,7 +16263,7 @@
                                         <right>1</right>
                                         <top>1</top>
                                         <bottom>1</bottom>
-                                        <unit>px</unit>
+                                        <unit>%</unit>
                                     </windows8>
                                     <windows8_override>true</windows8_override>
                                     <winmobile>
@@ -16526,13 +16526,13 @@
                                     <thinclient_override>false</thinclient_override>
                                     <type>1</type>
                                     <windows8>
-                                        <left>0</left>
-                                        <right>0</right>
-                                        <top>0</top>
-                                        <bottom>0</bottom>
+                                        <left>2</left>
+                                        <right>1</right>
+                                        <top>1</top>
+                                        <bottom>1</bottom>
                                         <unit>%</unit>
                                     </windows8>
-                                    <windows8_override>false</windows8_override>
+                                    <windows8_override>true</windows8_override>
                                     <winmobile>
                                         <left>0</left>
                                         <right>0</right>
@@ -16781,7 +16781,7 @@
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>true</rc_windows8>
+                <rc_windows8>false</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>

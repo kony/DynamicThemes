@@ -137,16 +137,18 @@
 	 }
 	 
 	 
-	 
-	 
-	 
+/*****************************************************************
+*	Name    : OnRowClick
+*	Author  : Kony Solutions
+*	Purpose : this function will be called on click of segement row in tablet .
+******************************************************************/ 
 	 function OnRowClick(){
-	 
 	 if(frmdynamicTheme.segMenu.selectedIndex[1] == 0){
 		newKonyThemefn();
-	}
-	else if(frmdynamicTheme.segMenu.selectedIndex[1] == 1){ 
-	    oldkonyThemefn();	 
+		//alert("1");
+	  }
+	 else if(frmdynamicTheme.segMenu.selectedIndex[1] == 1){ 
+	    oldkonyThemefn();
+	    //alert("2");	 
 	 }
 	 }
-	 
