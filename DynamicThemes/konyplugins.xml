@@ -3,7 +3,7 @@
     <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.46.QA_v201404041631_r1"/>
     <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.13.QA_v201403251727"/>
     <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.5.QA_v201310211059"/>
-    <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.34.QA_v201403281641"/>
+    <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.35.QA_v201404141619_r3"/>
     <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.5.16.QA_v201403071637"/>
     <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.2.GA_v201402061941"/>
     <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.6.QA_v201402101456"/>

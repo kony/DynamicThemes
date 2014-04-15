@@ -124,16 +124,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="iPad,Roboto-Light" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="iPad,Roboto-Light" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
         <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -270,16 +270,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="iPad,Roboto-Light" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -2183,16 +2183,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="iPad,Roboto-Light" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Light_3" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -2465,16 +2465,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="Windows8,SegoeWP-Light" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Windows8,SegoeWP-Light" type="map"/>
         <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -3709,16 +3709,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Light_3" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -4127,16 +4127,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="iPad,Roboto-Light" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Light_3" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -4273,16 +4273,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Light_3" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -4419,16 +4419,16 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="iPad,Roboto-Medium" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Android,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="IPhone,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Regular_3" type="map"/>
+        <att name="FontNameMap" value="SPA Blackberry,Roboto-Regular_3" type="map"/>
         <att name="FontNameMap" value="Blackberry,Roboto-Regular_3" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>

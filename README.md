@@ -21,5 +21,6 @@ This Application will showcase the Locally Packaged Themes
 **Tablet**
  * iPad
  * Android
+ * Windows 8
  * SPA iPad
  * SPA Android

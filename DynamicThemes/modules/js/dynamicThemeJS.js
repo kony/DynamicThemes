@@ -33,11 +33,11 @@
         frmdynamicTheme.imgHeader.src="back_ico.png";
         }
         
-        if(crntTheme=="OldKonyTheme")
+        if((crntTheme=="OldKonyTheme")&&(kony.os.deviceInfo().name!="Windows"))
         {
         frmIntro.img1.src="bullet.png";
         }
-        if(crntTheme=="NewKonyTheme")
+        if((crntTheme=="NewKonyTheme")&&(kony.os.deviceInfo().name!="Windows"))
         frmIntro.img1.src="blackbullet.png";
         
 		frmdynamicTheme.show();
@@ -68,8 +68,10 @@
 	 	frmdynamicTheme.imgHeader.src="back_ico.png";
 	 	}
 	 	
+	 	if(kony.os.deviceInfo().name!="Windows")
+	 	{
         frmIntro.img1.src="blackbullet.png";
-	 	
+	 	}
 	 	kony.theme.setCurrentTheme("NewKonyTheme", onsuccesscallback, onerrorcallback);
 	 	frmdynamicTheme.show();
 	 	
@@ -86,7 +88,10 @@
 	    {
 	    frmdynamicTheme.imgHeader.src="back_ico_f.png";
 	    }
+	    if(kony.os.deviceInfo().name!="Windows")
+	 	{
 	    frmIntro.img1.src="bullet.png";
+	  	}
 	  	//kony.print("Before calling setcurrenttheme");
 	 	kony.theme.setCurrentTheme("OldKonyTheme", onsuccesscallback, onerrorcallback);
 	 	//kony.print("After calling setcurrenttheme");
@@ -145,10 +150,8 @@
 	 function OnRowClick(){
 	 if(frmdynamicTheme.segMenu.selectedIndex[1] == 0){
 		newKonyThemefn();
-		//alert("1");
 	  }
 	 else if(frmdynamicTheme.segMenu.selectedIndex[1] == 1){ 
-	    oldkonyThemefn();
-	    //alert("2");	 
+	    oldkonyThemefn();	 
 	 }
 	 }

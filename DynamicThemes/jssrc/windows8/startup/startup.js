@@ -8,7 +8,7 @@ var appConfig = {
     serverIp: null,
     serverPort: null,
     secureServerPort: null,
-    isDebug: false,
+    isDebug: true,
     middlewareContext: "middleware",
     url: null,
     secureurl: null
@@ -44,6 +44,3 @@ function loadResources() {
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
 loadResources();
-kony.print = function() {
-    return;
-};

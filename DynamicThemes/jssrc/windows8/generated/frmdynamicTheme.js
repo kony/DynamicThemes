@@ -58,9 +58,9 @@ function addWidgetsfrmdynamicTheme() {
         "vExpand": false,
         "hExpand": true,
         "margin": [1, 1, 1, 1],
-        "padding": [1, 1, 1, 1],
+        "padding": [2, 1, 1, 1],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-        "marginInPixel": true,
+        "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 8
     }, {});
@@ -107,7 +107,7 @@ function addWidgetsfrmdynamicTheme() {
         "orientation": constants.BOX_LAYOUT_VERTICAL
     }, {
         "containerWeight": 34,
-        "margin": [2, 0, 0, 0],
+        "margin": [1, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "widgetAlignment": constants.WIDGET_ALIGN_TOP_LEFT,
         "marginInPixel": false,
