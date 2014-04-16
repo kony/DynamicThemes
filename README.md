@@ -24,3 +24,6 @@ This Application will showcase the Locally Packaged Themes
  * Windows 8
  * SPA iPad
  * SPA Android
+
+**Desktop**
+ * DesktopWeb
