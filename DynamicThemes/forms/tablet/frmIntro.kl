@@ -4175,7 +4175,7 @@
                 <defaults>
                     <left>7</left>
                     <right>2</right>
-                    <top>7</top>
+                    <top>4</top>
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </defaults>
@@ -5808,8 +5808,8 @@
                 <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -6458,8 +6458,8 @@
                     <defaults>
                         <left>1</left>
                         <right>1</right>
-                        <top>2</top>
-                        <bottom>2</bottom>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </defaults>
                     <desktop_kiosk>

@@ -4876,7 +4876,7 @@
                 <android>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
@@ -4884,7 +4884,7 @@
                 <bb>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
@@ -4932,7 +4932,7 @@
                 <iphonerc>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </iphonerc>
@@ -5021,7 +5021,7 @@
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>7</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </winmobile>
@@ -5053,7 +5053,7 @@
                 <spaAndroid>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
@@ -5061,7 +5061,7 @@
                 <spaBB>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBB>
@@ -5077,7 +5077,7 @@
                 <spaIphone>
                     <left>0</left>
                     <right>0</right>
-                    <top>10</top>
+                    <top>5</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>

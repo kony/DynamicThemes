@@ -143,15 +143,29 @@
 	 
 	 
 /*****************************************************************
-*	Name    : OnRowClick
+*	Name    : OnRowClickTablet
 *	Author  : Kony Solutions
 *	Purpose : this function will be called on click of segement row in tablet .
 ******************************************************************/ 
-	 function OnRowClick(){
+	 function OnRowClickTablet(){
 	 if(frmdynamicTheme.segMenu.selectedIndex[1] == 0){
 		newKonyThemefn();
 	  }
 	 else if(frmdynamicTheme.segMenu.selectedIndex[1] == 1){ 
 	    oldkonyThemefn();	 
 	 }
+	 }
+	 
+/*****************************************************************
+*	Name    : OnRowClickPhone
+*	Author  : Kony Solutions
+*	Purpose : This function will be called on click of Tabpane in Phone
+******************************************************************/ 	 
+	 
+	 function OnRowClickPhone()
+	 {
+	 if(frmdynamicTheme.tabpane.activeTabs[0] == 0)
+	 newKonyThemefn();
+	 if(frmdynamicTheme.tabpane.activeTabs[0] == 1)
+	 oldkonyThemefn();	 
 	 }

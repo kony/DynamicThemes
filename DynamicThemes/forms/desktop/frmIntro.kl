@@ -872,7 +872,7 @@
                 <defaults>
                     <left>7</left>
                     <right>2</right>
-                    <top>7</top>
+                    <top>3</top>
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </defaults>
