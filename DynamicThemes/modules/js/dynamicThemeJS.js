@@ -100,27 +100,7 @@
 	 	
 	 }
 	 
-/*****************************************************************
-*	Name    : defaultThemefn
-*	Author  : Kony Solutions
-*	Purpose : Below API(setCurrentTheme) is setting the remote theme(remote.theme) i.e. available on remote server .
-******************************************************************/
-	 
-	 function defaultThemefn(){
-	 	 	
-	 	if(kony.theme.isThemePresent("myTheme")){	 		
-	 		kony.theme.setCurrentTheme("myTheme", onsuccesscallback, onerrorcallback);
-	 		frmdynamicTheme.show();
-	 		}
-	 	else{
-	 		
-	 		var url = "http://sampleapps.konylabs.net/themes/remote.theme"; 		 		
-	 		kony.theme.createTheme(url,"myTheme" ,onsuccesscallback, onerrorcallback);
-	 		kony.theme.setCurrentTheme("myTheme", onsuccesscallback, onerrorcallback);
-	 		frmdynamicTheme.show();
-	 		
-	 	}	 		
-	 }
+
 	 
 /*****************************************************************
 *	Name    : onsuccesscallback
