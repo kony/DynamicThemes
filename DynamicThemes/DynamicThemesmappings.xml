@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="DynamicThemes" id="DynamicThemes">
-    <container type="form" id="frmdynamicTheme" displayname="Form"/>
-    <container type="form" id="frmdynamicTheme" displayname="Form"/>
-    <container type="form" id="frmdynamicTheme" displayname="Form"/>
-    <container type="form" id="frmIntro" displayname="Form"/>
-    <container type="form" id="frmIntro" displayname="Form"/>
-    <container type="form" id="frmdynamicTheme" displayname="Form"/>
+<application id="DynamicThemes" name="DynamicThemes">
+    <container isflex="false" displayname="Form" id="frmdynamicTheme" type="form"/>
+    <container isflex="false" displayname="Form" id="frmdynamicTheme" type="form"/>
+    <container isflex="false" displayname="Form" id="frmIntro" type="form"/>
+    <container isflex="false" displayname="Form" id="frmdynamicTheme" type="form"/>
+    <container isflex="false" displayname="Form" id="frmIntro" type="form"/>
+    <container isflex="false" displayname="Form" id="frmdynamicTheme" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
