@@ -27,3 +27,5 @@ This Application will showcase the Locally Packaged Themes
 
 **Desktop**
  * DesktopWeb
+ 
+**Supports Kony Studio:** 6.5.x, 7.x
